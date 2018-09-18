@@ -58,6 +58,7 @@ html {
   font-family: 'Times New Roman', Times, serif;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 @media (min-width: 900px) {
   #text {
@@ -84,11 +85,18 @@ h3 {
   color: white;
 }
 
-.no-touch #button:hover {
+#button:hover {
   background: #bff9fc;
   border: 1px solid #fcfeff;
 }
 
 #button:active {
-  background: #f75b5b;
+  background: #71e7fc;
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 1000px) {
+  .no-touch #button:hover {
+    background: #bff9fc;
+    border: 1px solid #fcfeff;
+  }
 }
