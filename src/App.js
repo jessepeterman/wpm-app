@@ -34,7 +34,7 @@ const TextSelector = props => {
 const defaultSettings = {
   text: '',
   textCounter: 0,
-  countdown: 59,
+  countdown: 14,
   isRunning: false,
   isFinished: false,
   textType: 'Fiction',
