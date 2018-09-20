@@ -85,21 +85,16 @@ h3 {
   color: white;
 }
 
-#button:hover {
-  background: #bff9fc;
-  border: 1px solid #fcfeff;
-}
-
 #button:active {
   background: #71e7fc;
 }
 
-@media only screen and (min-device-width: 400px) and (max-device-width: 1000px) {
+/* @media only screen and (min-width: 400px) and (max-width: 1000px) {
   .no-touch #button:hover {
     background: #bff9fc;
     border: 1px solid #fcfeff;
   }
-}
+} */
 
 select {
   -webkit-appearance: none;
