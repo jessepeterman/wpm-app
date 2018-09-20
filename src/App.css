@@ -109,4 +109,5 @@ select {
   height: 37.5px;
   font-size: 1.2rem;
   text-align-last: center;
+  background-image: url('./blank-white-bg-sm.png');
 }
